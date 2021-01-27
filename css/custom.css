@@ -1,0 +1,45 @@
+/* Custom CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#outerframe {
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding: 10%;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    /*
+    -moz-box-shadow: 0 0 20px #ccc;
+    -webkit-box-shadow: 0 0 20px #ccc;
+    box-shadow: 0 0 20px #ccc;
+    */
+}
+
+.button {
+    width: 150px;
+    text-align: center;
+}
+
+body {
+    background-color: #CFD8DC;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    #outerframe {
+    margin-right: 20%;
+    margin-left: 20%;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

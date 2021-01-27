@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" id="something">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Marvin Sextro</title>
+  <meta name="description" content="Marvin Sextro">
+  <meta name="author" content="Marvin Sextro">
+
+  <!-- Imports
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Open Sans:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="container">
+      <div class="row" id="outerframe">
+          <div class="twelve columns">
+              <h4>Marvin Sextro</h4>
+              <h6>Accounts</h6>
+              <br/>
+              <div style="overflow-x:auto;">
+                  <table class="u-full-width">
+                      <thead>
+                          <tr>
+                              <th></th>
+                              <th>Site</th>
+                              <th>Username</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>
+                                  <img src="https://twitter.com/favicon.ico" style="width:16px; height:16px;">
+                              </td>
+                              <td>Twitter</td>
+                              <td>
+                                  <a target="_blank" href="https://twitter.com/marvinsxtr">marvinsxtr</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <img src="https://gitlab.com/favicon.ico" style="width:16px; height:16px;">
+                              </td>
+                              <td>Gitlab</td>
+                              <td>
+                                  <a target="_blank" href="http://www.gitlab.com/marvinsxtr">marvinsxtr</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <img src="https://github.com/favicon.ico" style="width:16px; height:16px;">
+                              </td>
+                              <td>Github</td>
+                              <td>
+                                  <a target="_blank" href="http://www.github.com/marvinsxtr">marvinsxtr</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <img src="https://stackoverflow.com/favicon.ico" style="width:16px; height:16px;">
+                              </td>
+                              <td>Stackoverflow</td>
+                              <td>
+                                  <a target="_blank" href="https://stackoverflow.com/users/8256116/marvinsxtr">marvinsxtr</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <img src="https://instagram.com/favicon.ico" style="width:16px; height:16px;">
+                              </td>
+                              <td>Instagram</td>
+                              <td>
+                                  <a target="_blank" href="http://www.instagram.com/marvinsxtr">marvinsxtr</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <img src="https://medium.com/favicon.ico" style="width:16px; height:16px;">
+                              </td>
+                              <td>Medium</td>
+                              <td>
+                                  <a target="_blank" href="https://medium.com/@marvinsxtr">marvinsxtr</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <img src="https://youtube.com/favicon.ico" style="width:16px; height:16px;">
+                              </td>
+                              <td>Youtube</td>
+                              <td>
+                                  <a target="_blank" href="https://www.youtube.com/channel/UC0SxizjtRVFxfTorJaezrwA">Marvin Sextro</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <img src="https://linkedin.com/favicon.ico" style="width:16px; height:16px;">
+                              </td>
+                              <td>LinkedIn</td>
+                              <td>
+                                  <a target="_blank" href="https://linkedin.com/in/marvin-sextro-705a3b149/">Marvin Sextro</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <img src="https://facebook.com/favicon.ico" style="width:16px; height:16px;">
+                              </td>
+                              <td>
+                                  <strike>Facebook</strike>
+                              </td>
+                              <td>
+                                  -
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <br/>
+                  <a class="button" href="impressum.html">Impressum</a>
+                  <a class="button" href="datenschutz.html">Datenschutz</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script>
+    // Create the Trianglify image
+      var pattern = Trianglify({
+        height: $(document).height(),
+        width: $(document).width(),
+        cell_size: 800
+      });
+
+      document.body.style.backgroundSize = "cover";
+      document.body.style.backgroundImage = "url(" + pattern.png() + ")";
+  </script>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
